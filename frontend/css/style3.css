@@ -1,0 +1,36 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+.phones-container{
+
+nav{
+    background: rgb(247, 247, 251);
+    padding: 1rem;
+}
+nav ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-around; 
+    
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color:rgb(44, 36, 36);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display:block;
+
+}
+nav ul li a:hover{
+    background-color: #4fc1f3;
+    border-radius: 5px;
+}
+
+
+} 
